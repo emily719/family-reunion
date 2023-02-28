@@ -95,3 +95,8 @@ a:hover {
     transform: translate(-50%, -50%);
 
 }
+
+.modal-header {
+    background-color: #2b2b2b;
+    color: white; 
+}
