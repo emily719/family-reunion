@@ -18,56 +18,115 @@
     <link rel="stylesheet" href="css/styles.css" />
     <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces|Source+Sans+3" />
+
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
+
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container">
-            <div class="row">
-                
-                <div class="col">
-                    <h1>Shanahan Family Reunion</h1>
-                    <h2>May 24-27, 2024</h2>
-                </div>
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/shanahan-crest.jpg" width=212 class="img-fluid" />
-                </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#reunionNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="reunionNavbar">
+                <ul class="nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">
+                            Schedule of Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="location.html"> Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="accommodations.html"> Accommodations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"> Our Family Story</a></li>
+                    <li class="nav-item"><a class="btn btn-dark" href="#"> RSVP</a></li>
+                </ul>
+
             </div>
         </div>
-    </header>
-
+    </nav>
     <div>
-
+        <div class="parent">
+            <img src="img/barn.jpg" alt="" class="img">
+            <div class="centered">
+                <h1 style="color:white">Shanahan Family Reunion</h1>
+                <br>
+                <h1 style="color:white">May 24 - 27, 2024</h1>
+                <br>
+                <a class="btn btn-dark btn-lg" href="#" role="button">RSVP</a>
+            </div>
+        </div>
     </div>
 
     <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html"> Home</a></li>
-                        <li><a href="accommodations.html"> Accommodations</a></li>
-                        <li><a href="location.html"> Location</a></li>
-                        <li><a href="schedule.html"> Schedule of Events</a></li>
-                        <li><a href="about.html"> About Our Family</a></li>
-                    </ul>
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
+                        <p><a href="index.html" style="color:white">Home</a></p>
+                        <p><a href="index.html" style="color:white">Schedule of Events</a></p>
+                        <p><a href="index.html" style="color:white">Location</a></p>
+                        <p><a href="index.html" style="color:white">Accommodations</a></p>
+                    </div>
+                    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <a href="mailto:reunioninfo@gmail.com" style="color:white"><i class="fa fa-envelope-o"></i>
+                            reunioninfo@gmail.com</a>
+                        <br>
+                        <br>
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Social</h6>
+                        <h5><a href="#" style="color:white"><i class="fa fa-instagram"></i></a>&ensp;
+                            <a href="#" style="color:white"><i class="fa fa-facebook"></i></a>
+                        </h5>
+                    </div>
+                    <!-- Grid column -->
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                            class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                            class="fa fa-facebook"></i></a>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                            class="fa fa-envelope-o"></i> reunioninfo@gmail.com</a>
-                </div>
-            </div>
+                <!--Grid row-->
+
+
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3">
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2023
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">Made with love in ATX
+                        <img src="img/heart-logo.svg" width="35" alt="pastel rainbow heart">
+                    </div>
+            </section>
+            <!-- Section: Copyright -->
+
+
         </div>
+        </section>
+        <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
     </footer>
+    <!-- Footer -->
+    </div>
+    <!-- End of .container -->
 </body>
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </html>
