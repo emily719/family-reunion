@@ -22,13 +22,6 @@ header h2 {
     padding: 20px 0;
     }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #3665db, #7ed957, #3665db);
-    color: white;
-}
-
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
