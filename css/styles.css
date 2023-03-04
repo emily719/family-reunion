@@ -112,3 +112,8 @@ a:hover {
     right: 0;
     bottom: 0;
     z-index: 100; }
+
+
+#rsvpModal .modal-header {
+    background-color: #0088cc;
+}

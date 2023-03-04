@@ -37,24 +37,54 @@
                     <li class="nav-item"><a class="nav-link" href="location.html"> Location</a></li>
                     <li class="nav-item"><a class="nav-link" href="accommodations.html"> Accommodations</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html"> Our Family Story</a></li>
-                    <li class="nav-item"><a class="btn btn-dark" href="#"> RSVP</a></li>
+                    <li class="nav-item"><a id="rsvpNavButton" class="btn btn-dark btn" type="button">RSVP</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    
+    <div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="rsvpModalLabel">RSVP</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="rsvp-email" class="col-form-label fs-6">Email:</label>
+                            <input type="text" class="form-control" id="rsvp-email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="numOfGuests" class="col-form-label fs-6">Number Of Guests:</label>
+                            <input type="text" class="form-control" id="numOfGuests"></input>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container">
         <div class="row row-content">
             <div class="col-sm-4">
                 Friday May 24th
             </div>
-            
+
             <div class="col-sm-8">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-2">5:30 PM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">Opening Reception & Registration: Holiday Inn&ensp; <i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">Opening
+                                Reception & Registration: Holiday Inn&ensp; <i class="fa fa-calendar-plus"></i></a>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col offset-sm-2">Pick up tickets for weekend events</div>
@@ -62,7 +92,7 @@
                     <div class="row">
                         <div class="col offset-sm-2">Bar & Food</div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -75,7 +105,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-2">9:00 AM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE"> Museum Excursion&ensp;<i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">
+                                Museum Excursion&ensp;<i class="fa fa-calendar-plus"></i></a></div>
                     </div>
                     <div class="row">
                         <div class="col offset-sm-2">Great Platte River Archway</div>
@@ -86,7 +118,9 @@
                     <br>
                     <div class="row">
                         <div class="col-sm-2">11:30 AM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE"> Pub Crawl&ensp;<i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">
+                                Pub Crawl&ensp;<i class="fa fa-calendar-plus"></i></a></div>
                     </div>
                     <div class="row">
                         <div class="col offset-sm-2">Platte Valley Brewery</div>
@@ -98,12 +132,14 @@
                         <div class="col offset-sm-2">Thunderhead Brewery</div>
                     </div>
                     <br>
-                   
+
                     <div class="row">
                         <div class="col-sm-2">5:30 PM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE"> Family Dinner & Entertainment&ensp;<i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">
+                                Family Dinner & Entertainment&ensp;<i class="fa fa-calendar-plus"></i></a></div>
                     </div>
-                  
+
 
                 </div>
             </div>
@@ -117,15 +153,21 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-2">10:00 AM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE"> Cemetary Visits in Kearney, Axtell, and Heartwell&ensp;<i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">
+                                Cemetary Visits in Kearney, Axtell, and Heartwell&ensp;<i
+                                    class="fa fa-calendar-plus"></i></a></div>
                     </div>
                     <div class="row">
                         <div class="col offset-sm-2">Lunches and beverages on the tour</div>
                     </div>
-<br>
+                    <br>
                     <div class="row">
                         <div class="col-sm-2">4:00 PM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE"> Mass @ Shanahan Farms, family photo & BBQ dinner&ensp;<i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">
+                                Mass @ Shanahan Farms, family photo & BBQ dinner&ensp;<i
+                                    class="fa fa-calendar-plus"></i></a></div>
                     </div>
 
                 </div>
@@ -140,65 +182,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-2">9:00 AM</div>
-                        <div class="col"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE"> Axtell Memorial Day Activities & Parade&ensp;<i class="fa fa-calendar-plus"></i></a></div>
+                        <div class="col"><a
+                                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Opening Reception and Registration&details=Holiday Inn (110 2nd Avenue; Kearney, NE), Pick up tickets for weekend events, Bar and Food&dates=20240524T173000&location=Kearney, NE">
+                                Axtell Memorial Day Activities & Parade&ensp;<i class="fa fa-calendar-plus"></i></a>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </div>
-        <!-- <div class="row row-content align-items-center">
-        <div class="col-sm-4 order-sm-last col-md-3">
-            <h2 class="text-sm-right">Discover & Review</h2>
-        </div>
-        <div class="row">
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
-                    alt="Breadcrumb Trail" />
-                <div class="media-body align-self-center">
-                    <h3>Our Campsites</h3>
-                    <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave
-                        your
-                        own reviews!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row row-content align-items-center">
-        <div class="col-sm-4 col-md-3">
-            <h2>Featured Campsites</h2>
-        </div>
-        <div class="col">
-            <div class="media">
-                <div class="media-body align-self-center">
-                    <h3>React Lake Campground</h3>
-                    <p class=" d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this
-                        campground
-                        on the
-                        shores of the pristine React
-                        Lake is a favorite for fly fishers.</p>
-                </div>
-                <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg">
-            </div>
-        </div>
-    </div>
-
-    <div class="row row-content align-items-center">
-        <div class="col-sm-4 order-sm-last col-md-3">
-            <h2 class="text-sm-right">Our Community Partners</h2>
-        </div>
-        <div class="col">
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
-                <div class="media-body align-self-center">
-                    <h3>Bootstrap Outfitters</h3>
-                    <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices
-                        you
-                        can't beat.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
     </div>
 
     <footer class="site-footer">
@@ -275,5 +267,6 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </html>
